@@ -29,7 +29,7 @@ public class ScenarioStorageTest {
         scenario.name = "newname";
         storage.update(scenario);
         Scenario updated = storage.getScenario(id);
-        assertNotNull("Stored object should have been fetched.", updated.name);
+        assertNotNull("Stored object should have been fetched.", updated);
         assertEquals("The stored object should now have the name 'newname'.", updated.name, "newname");
     }
 }
