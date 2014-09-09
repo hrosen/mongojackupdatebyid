@@ -4,3 +4,4 @@ mongoupdate.ipr
 mongoupdate.iml
 .gradle
 *~
+gradle
